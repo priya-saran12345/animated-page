@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+Osmanya&family=Oswald:wght@200;600&family=Poppins:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+html,e
+body {
+    height: 100%;
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+text-decoration: underline;  }
+  
+.bounding
+{
+    width:100%;
+    overflow: hidden;
+}
+.boundingelem
+{
+    transform: translateY(100%);
+}
+.mincircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    position: absolute;
+    z-index: 9999;
+    border-radius: 50%;
+}
+
+.main {
+    width: 100%;
+    background-color: black;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+
+}
+
+.nav a {
+    color: white;
+    font-weight: 800;
+}
+.h4{
+    text-align: right;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.heading {
+    color: rgb(255, 253, 253);
+
+    margin-top: 15vh;
+    font-size: 5vw;
+    line-height: 1;
+    padding-left: 30px;
+    font-weight: 900;
+    letter-spacing: 10px;;
+}
+.heading h1{
+    opacity: .6;
+}
+
+.h5 {
+    padding-top: 7px;
+    font-size: 18px;
+    margin-left: 40%;
+    margin-top: 10px;
+   color: white;   
+
+}
+
+.h1 {
+    margin-left: 7%;
+}
+
+.middle {
+    color: white;
+    margin-top: 12vh;
+    text-align: right;
+    margin-right: 3%;
+    font-size: 20px;
+    
+    text-transform: uppercase;
+}
+.middle h5{
+    padding-bottom: 8px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0%;
+    bottom: 20px;
+
+
+}
+
+.footer a {
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 17px;
+color: white;
+font-weight: 800;
+}
+
+.iconset {
+    display: flex;
+
+    justify-content: space-around;
+    margin-right: 40px;
+}
+
+.iconset .circle {
+    width: 24px;
+    height: 24px;
+    background-color: rgb(188, 187, 187);
+    border-radius: 50%;
+    margin-left: 10px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+}
+
+/*now the coading of the next page starts formm here */
+.second {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding-top: 180px;
+}
+
+.enem {
+    width: 89%;
+    border-top: 0.1px solid #888;
+    padding: 2vw 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-right: 0;
+}
+
+
+.enem h5 {
+    font-size: 15px;
+
+
+}
+.enem h1{
+
+    color: white;
+    text-transform: uppercase;
+
+    opacity: .6;
+    font-size: 7vw;
+    letter-spacing: 5px;
+
+}
+
+.enem img {
+    z-index: 100;
+    height: 120%;
+    width: 20%;
+    position: absolute;
+    opacity: 0;
+}
+.last {
+    border-bottom: 0.1px solid #888;
+
+
+}
+
+.about {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10vw;
+    display: flex;
+    gap: 40px;
+}
+
+.about img {
+    background-color: black;
+    border-radius: 50%;
+    height: 12vw;
+}
+
+#P {
+    width: fit-content;
+}
+
+.about img {
+    margin-left: 35vw;
+}
+
+.about p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.about h3 {
+    opacity: .7;
+
+}
+
+.about a {
+
+    color: white;
+    border: 1px solid white;
+    padding: 4px 19px;
+    border-radius: 20px;
+    letter-spacing: 3px;
+    font-size: 1.2vw;
+
+}
+
+.subscribe {
+    background-color: black;
+    color: rgb(255, 253, 253);
+    padding-left: 40px;
+    text-transform: uppercase;
+    padding-bottom: 13vw;
+}
+
+.subscribe h5 {
+    opacity: .7;
+    font-size: 15px;
+}
+
+.subscribe h3 {
+    margin-top: 5px;
+    font-size: 18px;
+
+}
+
+.end {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+color: white;
+padding-left:  44px;
+padding-right:  44px;
+padding-bottom: 20px;
+}
+.left
+{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+
+}
+.left h5{
+    font-size: 17px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right a{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: white;
+    margin-right: 15px;
+    font-size: 17px;
+}
